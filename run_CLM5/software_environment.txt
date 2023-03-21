@@ -1,0 +1,179 @@
+Currently Loaded Modulefiles:
+ 1) gcc/9.3.0   2) mpich/3.4.1   3) netcdf-fortran/4.5.3   4) netcdf-c/4.7.4
+
+SHELL=/bin/bash
+SESSION_MANAGER=local/SLFL27380:@/tmp/.ICE-unix/3705,unix/SLFL27380:/tmp/.ICE-unix/3705
+NETCDF_C_LIBRARY=/packages/netcdf-c/4.7.4/lib
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+PYTHONUNBUFFERED=1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_MENU_PREFIX=gnome-
+CIMEROOT=/home/malle/CLM5_install/my_cesm_sandbox/cime/scripts/Tools/../..
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+CONDA_EXE=/home/malle/miniconda3/bin/conda
+_CE_M=
+LANGUAGE=en
+LIBDIR=/packages/netcdf-c/4.7.4/lib:/packages/netcdf-fortran/4.5.3/lib
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+LC_ADDRESS=de_CH.UTF-8
+GNOME_SHELL_SESSION_MODE=ubuntu
+LC_NAME=de_CH.UTF-8
+SSH_AUTH_SOCK=/run/user/66917/keyring/ssh
+MODULES_LMCONFLICT=gcc/9.3.0&gcc
+_LMFILES__modshare=/usr/local/Modules/modulefiles/netcdf-c/4.7.4:1:/usr/local/Modules/modulefiles/gcc/9.3.0:1:/usr/local/Modules/modulefiles/mpich/3.4.1:1:/usr/local/Modules/modulefiles/netcdf-fortran/4.5.3:1
+LIBRARY_PATH_modshare=/packages/netcdf-fortran/4.5.3:1:/packages/gcc/9.3.0/lib64:1:/packages/netcdf-c/4.7.4:1
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+LC_MONETARY=de_CH.UTF-8
+SSH_AGENT_PID=3586
+MANPATH_modshare=/packages/netcdf-c/4.7.4/share/man:1::1:/packages/netcdf-fortran/4.5.3/share/man:1:/packages/mpich/3.4.1/share/man:1
+NETCDF_LIB_DIR=/packages/netcdf-c/4.7.4/lib
+GTK_MODULES=gail:atk-bridge
+ENV=/usr/local/Modules/init/profile.sh
+PWD=/home/malle/CLM5_install/my_cesm_sandbox/cime/scripts/EVA_new_T1
+KRB5CCNAME=FILE:/tmp/krb5cc_66917_JbbZx7
+LOGNAME=malle
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_TYPE=x11
+CONDA_PREFIX=/home/malle/miniconda3
+JULIA_LOAD_PATH=/home/malle/GIT:
+NETCDF_LIBRARIES=/packages/netcdf-c/4.7.4/lib
+MODULESHOME=/usr/local/Modules
+MANPATH=/packages/netcdf-c/4.7.4/share/man:/packages/netcdf-fortran/4.5.3/share/man:/packages/mpich/3.4.1/share/man::
+GPG_AGENT_INFO=/run/user/66917/gnupg/S.gpg-agent:0:1
+CXX=g++
+XAUTHORITY=/home/malle/.Xauthority
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/malle
+MPI_HOME=/packages/mpich/3.4.1
+LIBDIR_modshare=/packages/netcdf-c/4.7.4/lib:1:/packages/netcdf-fortran/4.5.3/lib:1
+GDM_LANG=en
+HOME=/home/malle
+LANG=en_US.UTF-8
+LC_PAPER=de_CH.UTF-8
+LD_LIBRARY_PATH_modshare=/packages/netcdf-c/4.7.4/lib:1:/packages/gcc/9.3.0/lib64:1:/packages/netcdf-fortran/4.5.3/lib:1:/packages/mpich/3.4.1/lib:1
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+NETCDF_INCLUDE_DIR=/packages/netcdf-c/4.7.4/include
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+VTE_VERSION=6003
+CONDA_PROMPT_MODIFIER=(base) 
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/5c12678e_9b6c_4e04_a1d8_8ec67e5a9457
+NETCDF_INC=/packages/netcdf-c/4.7.4/include
+NETCDF_DIR=/packages/netcdf-c/4.7.4
+INVOCATION_ID=9aaff27e50b74411b27270d1ff28b10c
+MANAGERPID=3442
+LD_RUN_PATH_modshare=/packages/netcdf-c/4.7.4/lib:1:/packages/netcdf-fortran/4.5.3/lib:1:/packages/mpich/3.4.1/lib:1
+PATH_modshare=/packages/gmt/6.1.1/bin:1:/usr/bin:1:/packages/netcdf-fortran/4.5.3/bin:1:/software/bin:1:/usr/local/bin:1:/bin:1:/usr/local/go/bin:1:/snap/bin:1:/packages/mpich/3.4.1/bin:1:/packages/gcc/9.3.0/bin:1:/home/malle/.local/bin:1:/usr/local/MATLAB/R2020b/bin:1:/packages/netcdf-c/4.7.4/bin:1:/usr/local/Modules/bin:1:/home/malle/miniconda3/condabin:1:/sbin:1:/usr/sbin:1:/usr/games:1:/usr/local/sbin:1:/home/malle/miniconda3/bin:1:/usr/local/games:1
+MODULEPATH_modshare=/usr/local/Modules/modulefiles:1
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+BLAS_LIBDIR=/usr/lib/x86_64-linux-gnu/blas
+LOADEDMODULES_modshare=gcc/9.3.0:1:mpich/3.4.1:1:netcdf-fortran/4.5.3:1:netcdf-c/4.7.4:1
+LC_IDENTIFICATION=de_CH.UTF-8
+TERM=xterm-256color
+_CE_CONDA=
+F77=gfortran
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=malle
+LIBRARY_PATH=/packages/netcdf-c/4.7.4:/packages/netcdf-fortran/4.5.3:/packages/gcc/9.3.0/lib64
+UDUNITS2_XML_PATH=/home/malle/miniconda3/share/udunits/udunits2.xml
+GNOME_TERMINAL_SERVICE=:1.87
+CONDA_SHLVL=1
+LOADEDMODULES=gcc/9.3.0:mpich/3.4.1:netcdf-fortran/4.5.3:netcdf-c/4.7.4
+F90=gfortran
+MODULES_LMCONFLICT_modshare=gcc/9.3.0&gcc:1
+DISPLAY=:0
+SHLVL=1
+LD_RUN_PATH=/packages/netcdf-c/4.7.4/lib:/packages/netcdf-fortran/4.5.3/lib:/packages/mpich/3.4.1/lib
+BASH_ENV=/usr/local/Modules/init/bash
+LC_TELEPHONE=de_CH.UTF-8
+QT_IM_MODULE=ibus
+PROJ_LIB=/home/malle/miniconda3/share/proj
+NETCDF_PATH=/packages/netcdf-fortran/4.5.3/include
+LC_MEASUREMENT=de_CH.UTF-8
+PAPERSIZE=a4
+LM_LICENSE_FILE=/software/matlab/license.dat
+CONDA_PYTHON_EXE=/home/malle/miniconda3/bin/python
+LD_LIBRARY_PATH=/packages/netcdf-c/4.7.4/lib:/packages/netcdf-fortran/4.5.3/lib:/packages/mpich/3.4.1/lib:/packages/gcc/9.3.0/lib64
+XDG_RUNTIME_DIR=/run/user/66917
+CONDA_DEFAULT_ENV=base
+NETCDF_ROOT=/packages/netcdf-c/4.7.4
+LC_TIME=de_CH.UTF-8
+OMP_NUM_THREADS=1
+FC=gfortran
+JOURNAL_STREAM=8:67985
+OMP_STACKSIZE=256M
+MPI_RUN=/packages/mpich/3.4.1/bin/mpirun
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/packages/netcdf-c/4.7.4/bin:/packages/netcdf-fortran/4.5.3/bin:/packages/mpich/3.4.1/bin:/packages/gcc/9.3.0/bin:/home/malle/.local/bin:/home/malle/miniconda3/bin:/home/malle/miniconda3/condabin:/usr/local/go/bin:/home/malle/.local/bin:/usr/local/Modules/bin:/usr/local/MATLAB/R2020b/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/software/bin:/packages/gmt/6.1.1/bin
+NETCDF_LIB=/packages/netcdf-c/4.7.4/lib
+MODULEPATH=/usr/local/Modules/modulefiles
+CC=gcc
+GDMSESSION=ubuntu
+_LMFILES_=/usr/local/Modules/modulefiles/gcc/9.3.0:/usr/local/Modules/modulefiles/mpich/3.4.1:/usr/local/Modules/modulefiles/netcdf-fortran/4.5.3:/usr/local/Modules/modulefiles/netcdf-c/4.7.4
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/66917/bus
+LC_NUMERIC=de_CH.UTF-8
+PROJ_NETWORK=ON
+OLDPWD=/home/malle/CLM5_install/my_cesm_sandbox/cime/scripts/EVA_new_T1_spinup
+MODULES_CMD=/usr/local/Modules/libexec/modulecmd.tcl
+BASH_FUNC_ml%%=() {  module ml "$@"
+}
+BASH_FUNC_module%%=() {  _module_raw "$@" 2>&1
+}
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/local/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/local/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+_=/usr/bin/env
