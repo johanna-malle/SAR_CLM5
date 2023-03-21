@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<file id="stream" version="1.0">
+
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        xc      lon
+        yc      lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+	/home/malle/CLM5_install/my_cesm_sandbox/cime/tools/mapping/gen_domain_files/
+  </filePath>
+  <fileNames>
+     domain.lnd.SPLOTID_navy.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     ZBOT     z
+        TBOT     tbot
+        RH       rh
+        WIND     wind
+        PRECTmms precn
+        FSDS     swdn
+        PSRF     pbot
+        FLDS     lwdn
+   </variableNames>
+   <filePath>
+	   /home/storage/malle/PTCLM5_input/new_runs/T1/combined_nc/SPLOTID/
+   </filePath>
+   <fileNames>
+     CLM5_forcing_1979.nc
+     CLM5_forcing_1980.nc
+     CLM5_forcing_1981.nc
+     CLM5_forcing_1982.nc
+     CLM5_forcing_1983.nc
+     CLM5_forcing_1984.nc
+     CLM5_forcing_1985.nc
+     CLM5_forcing_1986.nc
+     CLM5_forcing_1987.nc
+     CLM5_forcing_1988.nc
+     CLM5_forcing_1989.nc
+     CLM5_forcing_1990.nc
+     CLM5_forcing_1991.nc
+     CLM5_forcing_1992.nc
+     CLM5_forcing_1993.nc
+     CLM5_forcing_1994.nc
+     CLM5_forcing_1995.nc
+     CLM5_forcing_1996.nc
+     CLM5_forcing_1997.nc
+     CLM5_forcing_1998.nc
+     CLM5_forcing_1999.nc
+     CLM5_forcing_2000.nc
+     CLM5_forcing_2001.nc
+     CLM5_forcing_2002.nc
+     CLM5_forcing_2003.nc
+     CLM5_forcing_2004.nc
+     CLM5_forcing_2005.nc
+     CLM5_forcing_2006.nc
+     CLM5_forcing_2007.nc
+     CLM5_forcing_2008.nc
+     CLM5_forcing_2009.nc
+     CLM5_forcing_2010.nc
+     CLM5_forcing_2011.nc
+     CLM5_forcing_2012.nc
+     CLM5_forcing_2013.nc
+     CLM5_forcing_2014.nc
+     CLM5_forcing_2015.nc
+     CLM5_forcing_2016.nc
+   </fileNames>
+   <offset>
+     0
+   </offset>
+</fieldInfo>
+</file>

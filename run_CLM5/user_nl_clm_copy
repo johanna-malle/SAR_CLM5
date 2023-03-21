@@ -1,0 +1,38 @@
+!----------------------------------------------------------------------------------
+! Users should add all user specific namelist changes below in the form of
+! namelist_var = new_namelist_value
+!
+! EXCEPTIONS:
+! Set use_cndv           by the compset you use and the CLM_BLDNML_OPTS -dynamic_vegetation setting
+! Set use_vichydro       by the compset you use and the CLM_BLDNML_OPTS -vichydro           setting
+! Set use_cn             by the compset you use and CLM_BLDNML_OPTS -bgc  setting
+! Set use_crop           by the compset you use and CLM_BLDNML_OPTS -crop setting
+! Set spinup_state       by the CLM_BLDNML_OPTS -bgc_spinup      setting
+! Set co2_ppmv           with CCSM_CO2_PPMV                      option
+! Set fatmlndfrc         with LND_DOMAIN_PATH/LND_DOMAIN_FILE    options
+! Set finidat            with RUN_REFCASE/RUN_REFDATE/RUN_REFTOD options for hybrid or branch cases
+!                        (includes $inst_string for multi-ensemble cases)
+!                        or with CLM_FORCE_COLDSTART to do a cold start
+!                        or set it with an explicit filename here.
+! Set maxpatch_glcmec    with GLC_NEC                            option
+! Set glc_do_dynglacier  with GLC_TWO_WAY_COUPLING               env variable
+!----------------------------------------------------------------------------------
+finidat = 'EVA_new_T1_spinup.clm2.r.1984-01-01-00000.nc'
+
+fsurdat = '/home/malle/CLM5_install/surfdata_eva/T1/surfdata_SPLOTID.nc'
+
+hist_empty_htapes = .true.     ! clearing all output variables
+
+hist_dov2xy = .true.,.true.,.true.          ! output over PFTs -> true == no, false == yes
+
+hist_avgflag_pertape = 'A','A','A'  ! average over output interval
+
+hist_nhtfrq = -24, 0, 365 ! interval: daily & monthly & yearly output
+
+hist_mfilt = 1825,60000,60000    ! 5 yearly file for daily (365*5=1825), all data in 1 file for monthly/yearly
+
+hist_fincl1 = 'RAIN','SNOW','AnnET','ALBD','ALBI','SOILWATER_10CM','H2OSOI','SOILLIQ','Qstor','QOVER','QH2OSFC','QVEGE','QVEGT','QSOIL','TWS','TOTSOILLIQ','SMP','Qle','Qh','FSH','FSH_G','FSH_V','EFLX_LH_TOT','FIRE','FLDS','RH2M','RHAF','RH_LEAF','VEGWP','VCMX25T','FSA','FSR','SABV','SABG','LAISUN','LAISHA','RSSUN','RSSHA','FPSN','PARVEGLN','TBOT','TV','TG','TSOI','TSOI_10CM','TSA','TSL','SNOW_DEPTH','H2OSNO','FSNO','SNOW_PERSISTENCE','SNOCAN','ftii','ftid','ftdd','Rnet','LWup','FSDSVD','FSDSVI','FCTR','FCEV','ELAI','ESAI','COSZEN','FSDS'
+
+hist_fincl2 = 'RAIN','SNOW','AnnET','ALBD','ALBI','SOILWATER_10CM','H2OSOI','SOILLIQ','Qstor','QOVER','QH2OSFC','QVEGE','QVEGT','QSOIL','TWS','TOTSOILLIQ','SMP','Qle','Qh','FSH','FSH_G','FSH_V','EFLX_LH_TOT','FIRE','FLDS','RH2M','RHAF','RH_LEAF','VEGWP','VCMX25T','FSA','FSR','SABV','SABG','LAISUN','LAISHA','RSSUN','RSSHA','FPSN','PARVEGLN','TBOT','TV','TG','TSOI','TSOI_10CM','TSA','TSL','SNOW_DEPTH','H2OSNO','FSNO','SNOW_PERSISTENCE','SNOCAN','ftii','ftid','ftdd','Rnet','LWup','FSDSVD','FSDSVI','FCTR','FCEV','ELAI','ESAI','COSZEN','FSDS'
+
+hist_fincl3 = 'RAIN','SNOW','AnnET','ALBD','ALBI','SOILWATER_10CM','H2OSOI','SOILLIQ','Qstor','QOVER','QH2OSFC','QVEGE','QVEGT','QSOIL','TWS','TOTSOILLIQ','SMP','Qle','Qh','FSH','FSH_G','FSH_V','EFLX_LH_TOT','FIRE','FLDS','RH2M','RHAF','RH_LEAF','VEGWP','VCMX25T','FSA','FSR','SABV','SABG','LAISUN','LAISHA','RSSUN','RSSHA','FPSN','PARVEGLN','TBOT','TV','TG','TSOI','TSOI_10CM','TSA','TSL','SNOW_DEPTH','H2OSNO','FSNO','SNOW_PERSISTENCE','SNOCAN','ftii','ftid','ftdd','Rnet','LWup','FSDSVD','FSDSVI','FCTR','FCEV','ELAI','ESAI','COSZEN','FSDS'
